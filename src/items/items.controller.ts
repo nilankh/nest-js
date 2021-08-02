@@ -6,4 +6,9 @@ export class ItemsController {
     findAll(): string{
         return 'Get all items';
     }
+
+    @Post()
+    create(): string{
+        return 'Create item';
+    }
 }
