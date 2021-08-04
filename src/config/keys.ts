@@ -1,4 +1,4 @@
 export default {
   mongoURI:
-    'mongodb+srv://admin123:admin123@cluster0.aboil.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
+    'mongodb+srv://@cluster0.aboil.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
 };
