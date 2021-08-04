@@ -17,6 +17,7 @@
 //   }
 // }
 
+
 import { Injectable } from '@nestjs/common';
 import { Item } from './interfaces/item.interfaces';
 import { ItemDocument } from './schemas/item.schema';
@@ -51,3 +52,4 @@ export class ItemsService {
     return await this.itemModel.findByIdAndUpdate(id, item, { new: true });
   }
 }
+
