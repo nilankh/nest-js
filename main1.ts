@@ -38,3 +38,12 @@ console.log(myVariable.name);
 myVariable();
 myVariable.toUpperCase();
 
+let myVar: unknown = 10;
+function hasName(obj: any): obj is { name: string}{
+    return !!obj && typeof obj === "object" && "name" in obj
+}
+
+if(hasName(myVar)){
+    console.log(myVar.name);
+}
+(myVar as string).toUpperCase();
