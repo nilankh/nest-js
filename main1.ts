@@ -18,3 +18,12 @@ let list1: number[] = [1, 2, 3];
 let list2: Array<number> = [1, 2, 3];
 
 let person1: [string, number] = ['Nilank', 22];
+
+enum Color {Red, Green, Blue};
+let c: Color = Color.Green;
+console.log(c)
+
+
+enum Color {Pink = 5, Black, Yellow};
+let d: Color = Color.Black;
+console.log(d)
