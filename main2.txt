@@ -1,0 +1,38 @@
+ what is typescript?
+
+-> Superset of javascript developed by microsoft.
+-> Compiles to plain javascript
+-> Easily integrated into javascript projects.
+-> Designed for development of large applications.
+
+
+What does Typescript offer?
+
+-> Static type checking.
+-> Class Based Objects.
+-> Modularity.
+-> ES6 Features
+-> Syntax closer to java and other high level languages.
+
+Static type checking
+
+with typescript we can check and assign variable parameter and function types.
+
+-> It is completely optional.
+-> Helps us find and prevent bugs and stop future issues from happening.
+-> Makes our code much more readable and descriptive.
+
+
+Typescript Typescript
+
+* String
+* Number
+* Boolean
+* Array
+
+* Any
+* Void
+* Null
+* Tuple
+* Enum
+* Generics
