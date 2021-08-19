@@ -13,4 +13,12 @@ let mySum = function (num1: number, num2: any) {
   }
     return num1 + num2;
 };
-console.log(mySum(1,"9"))
+// console.log(mySum(1,"9"))
+
+function getName(firstName: string, lastName?: string): any{
+    if(lastName === undefined)
+        return firstName
+    return firstName + ' ' + lastName;
+}
+// console.log(getName('Nilank'))
+

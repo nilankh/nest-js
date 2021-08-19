@@ -11,4 +11,10 @@ var mySum = function (num1, num2) {
     }
     return num1 + num2;
 };
-console.log(mySum(1, "9"));
+// console.log(mySum(1,"9"))
+function getName(firstName, lastName) {
+    if (lastName === undefined)
+        return firstName;
+    return firstName + ' ' + lastName;
+}
+// console.log(getName('Nilank'))
