@@ -36,3 +36,17 @@ Typescript Typescript
 * Tuple
 * Enum
 * Generics
+
+Class Based Objects
+-> Object Oriented Programming in JS!
+-> No prototypes.
+-> Encapsulation.
+-> Inheritance.
+-> Modifiers.
+
+Typescript Compiler(tsc)
+-> Written in Typescript itself.
+-> Compiles .ts files to .js.
+-> Installed as an npm package(Node.js).
+-> Supports ES6 Syntax.
+
