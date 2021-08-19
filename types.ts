@@ -28,5 +28,9 @@ boolArr = [true, false, true];
 
 strNumTuple = ['Hello',4]
 
-console.log(strNumTuple);
+// let myVoid: void = null;
+let myNull: null = null;
+let myUndefined: undefined = null;
+
+console.log(myVoid);
 }

@@ -21,5 +21,8 @@
     numArr = [1, 2, 3];
     boolArr = [true, false, true];
     strNumTuple = ['Hello', 4];
-    console.log(strNumTuple);
+    // let myVoid: void = null;
+    var myNull = null;
+    var myUndefined = null;
+    console.log(myVoid);
 }
