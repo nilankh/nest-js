@@ -22,3 +22,6 @@ function getName(firstName: string, lastName?: string): any{
 }
 // console.log(getName('Nilank'))
 
+function myVoid(): void{
+    return;
+}

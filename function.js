@@ -18,3 +18,6 @@ function getName(firstName, lastName) {
     return firstName + ' ' + lastName;
 }
 // console.log(getName('Nilank'))
+function myVoid() {
+    return;
+}
