@@ -133,14 +133,39 @@ Exclude<A, B>
 type Result = Exclude<A, B>
 */
 
+//  class Person {
+//    constructor(name: string, age: number) {}
+//  }
+//  type a = ConstructorParameters<typeof Person>;
 
 
 
 
+// function toHex(this: Number) {
+//   return this.toString(16);
+// }
 
 
 
+export class ObjectManipulator<T> {
 
+    constructor(protected obj: Record<string, T>) {}
+    
+    public set(key:string, value: T) {
+        return new ObjectManipulator({...this.obj, [key]: value});
+    }
 
+    public get(key: string) {
+        return this.obj[key];
+    }
 
+    public delete(key: string) {
+        const newObj = {...this.obj};
+        delete newObj[key];
+        return new ObjectManipulator(newObj);
+    }
 
+    public getObject() {
+        return this.obj;
+    }
+}
